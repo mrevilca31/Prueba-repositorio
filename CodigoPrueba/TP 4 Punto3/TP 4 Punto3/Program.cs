@@ -10,6 +10,7 @@ namespace TP4_Punto5
     {
         static void Main(string[] args)
         {
+            //MISA BIEN PUTITO SE LA COME
             int x;
             Random generador = new Random();
             Queue<int> cola1 = new Queue<int>();
