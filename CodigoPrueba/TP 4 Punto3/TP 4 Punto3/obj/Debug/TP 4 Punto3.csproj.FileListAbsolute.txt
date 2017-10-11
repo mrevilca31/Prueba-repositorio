@@ -1,0 +1,6 @@
+c:\users\misael\documents\visual studio 2013\Projects\TP 4 Punto3\TP 4 Punto3\bin\Debug\TP 4 Punto3.exe.config
+c:\users\misael\documents\visual studio 2013\Projects\TP 4 Punto3\TP 4 Punto3\bin\Debug\TP 4 Punto3.exe
+c:\users\misael\documents\visual studio 2013\Projects\TP 4 Punto3\TP 4 Punto3\bin\Debug\TP 4 Punto3.pdb
+c:\users\misael\documents\visual studio 2013\Projects\TP 4 Punto3\TP 4 Punto3\obj\Debug\TP 4 Punto3.csprojResolveAssemblyReference.cache
+c:\users\misael\documents\visual studio 2013\Projects\TP 4 Punto3\TP 4 Punto3\obj\Debug\TP 4 Punto3.exe
+c:\users\misael\documents\visual studio 2013\Projects\TP 4 Punto3\TP 4 Punto3\obj\Debug\TP 4 Punto3.pdb
