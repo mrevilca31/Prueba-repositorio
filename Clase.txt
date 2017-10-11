@@ -1,0 +1,66 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Collections;
+ 
+ 
+namespace TP2
+{
+    public class Stack
+    {
+        private int[] datos;
+        private int cima;
+        private int j;
+ 
+        public Stack(int n)
+        {
+            this.datos = new int[n];
+            this.cima = 0;
+            j = n;          
+        }
+ 
+        public bool estaVacia()
+        {
+            return (cima <= 0);
+        }
+ 
+        public bool estaLlena()
+        {
+            return (cima == j);
+        }
+ 
+        public void Push(int elemento)
+        {
+            if(!this.estaLlena() == true)
+            {                        
+                this.datos[this.cima] = elemento;
+                ++this.cima;
+                               
+            }
+            else
+                Console.WriteLine("Esta llena");
+        }
+       
+ 
+        public int pop()
+        {            
+            if (!this.estaVacia())
+            {
+                --this.cima;            
+                return this.datos[this.cima];
+               
+            }
+            return -1;            
+        }
+ 
+        public int consultarCima()
+        {
+            if(!this.estaVacia())
+            {
+                return datos[cima-1];
+            }
+            return -1;
+        }    
+    }
+}
